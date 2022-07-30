@@ -66,6 +66,7 @@ const Ejercicio = () => {
             propStyle={styleFigure}
             entra={Entra}
             sale={Sale}
+            inico={Inicio}
         ></Figura>
     } else if (estado===1) {
         figura = <Figura

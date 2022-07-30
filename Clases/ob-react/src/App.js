@@ -4,8 +4,8 @@ import './App.css';
 // import Ejemplo2 from './hooks/Ejemplo2';
 // import MiComponenteConContexto from './hooks/Ejemplo3';
 // import Ejemplo4 from "./hooks/Ejemplo4"
-// import Greeting from './components/pure/greeting';
-// import GreetingF from './components/pure/greetingF';
+import Greeting from './components/pure/greeting';
+import GreetingF from './components/pure/greetingF';
 import TaskListComponent from "./components/container/task_list"
 import LoginFormik from './components/pure/forms/loginFormik';
 import RegisterFormik from './components/pure/forms/registerFormik';
@@ -22,7 +22,7 @@ function App() {
         {/* Componente propio Greeting.jsx*/}
         {/* <Greeting name="Erick Villalobos"></Greeting> */}
         {/* Componente de ejemplo funcional */}
-        {/* <GreetingF name="Erick"></GreetingF> */}
+        <GreetingF props="Erick"></GreetingF>
         {/* Componente de listado de tareas */}
 
         {/* PROYECTO FINAL */}
@@ -47,7 +47,7 @@ function App() {
         {/* <OptionalRender></OptionalRender> */}
         {/* Ejemplos de uso de Formik y Yup */}
         {/* <LoginFormik></LoginFormik> */}
-        <RegisterFormik></RegisterFormik>
+        {/* <RegisterFormik></RegisterFormik> */}
 
     </div>
   );
